@@ -337,12 +337,55 @@
 
 <div class="backdrop is-hidden" data-modal>
         <div class="modal">
+            
                 <button class="close-round">
                         <svg class="close-point" data-modal-close>
                         <use href="./images/Icons/symbol-defs.svg#icon-close-black"></use>
                     </svg>
             </button>
-            
+            <h3 class="modal-text">Leave your contacts and we will call you back</h3>
+            <form >
+                <ul class="signup-form list">
+                    <li class="input-form">
+                        <label for="user-name">Name</label>
+                        <input type="name" class="form-input" name="tel" id="user-name" />
+                        <svg class="input-icon">
+                            <use href="./images/Icons/symbol-defs.svg#icon-person-black"></use>
+                        </svg>
+                    </li>
+                
+                    <li class="input-form">
+                        <label for="user-phone">Phone</label>
+                        <input type="tel" class="form-input" name="tel" id="user-phone" />
+                        <svg class="input-icon">
+                            <use href="./images/Icons/symbol-defs.svg#icon-phone-black"></use>
+                        </svg>
+                    </li>
+
+                    <li class="input-form">
+                        <label for="user-email">Email</label>
+                        <input type="email" class="form-input" name="email" id="user_email" />
+                        <svg class="input-icon">
+                            <use href="./images/Icons/symbol-defs.svg#icon-email-black"></use>
+                        </svg>
+                    </li>
+
+                    <li class="input-form">
+                        <label for="user-comment">Comment</label>
+                        <textarea class="user-comment" name="user-comment" id="user-comment" cols="30" rows="10" placeholder="Text input"></textarea>
+                    </li>
+
+                    <label class="privacy-label">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <span class="privacy-checkbox"></span>
+                        <p class="privacy-text">I accept the terms and conditions of the <a href="" class="privacy-link">Privacy Policy</a>
+                        </p>
+                    </label>
+                
+                    <button class="btn modal-btn" type="submit">Submit</button>
+                </ul>
+
+            </form>
         </div>
     </div>
 

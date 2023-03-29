@@ -734,17 +734,23 @@ input[type="checkbox"]{
     appearance: none;
 }
 .privacy-checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 16px;
     height: 16px;
     border: 1.25px solid #2E2F42;
     border-radius: 2px;
 }
+.check-icon {
+    width: 10px;
+    height: 8px;
+}
     
 input[type="checkbox"]:checked + .privacy-checkbox {
     border-color:transparent;
     background-color:#404BBF;
-    background-image: url(../images/Icons/check.svg);
-    background-size: content;
     background-origin: border-box;
 
 }
+
